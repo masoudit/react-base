@@ -1,18 +1,79 @@
 {
-  "name": "react",
-  "version": "0.0.0",
+  "name": "react-base",
+  "version": "0.0.1",
+  "description": "React Base",
   "private": true,
+  "main": "dist/index.js",
   "dependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "@material-ui/core": "3.1.0",
+    "@material-ui/icons": "3.0.1",
+    "@types/googlemaps": "3.30.13",
+    "@types/markerclustererplus": "2.1.33",
+    "ajv": "^5.0.0",
+    "axios": "^0.18.0",
+    "chartist": "0.10.1",
+    "classnames": "2.2.6",
+    "jss-rtl": "^0.2.3",
+    "konva": "^3.2.5",
+    "material-table": "^1.32.0",
+    "material-ui-color-picker": "^3.2.0",
+    "material-ui-pickers": "^1.0.0-rc.17",
+    "material-ui-pickers-jalali-utils": "^0.4.3",
+    "moment": "^2.24.0",
+    "moment-jalaali": "^0.8.1",
+    "notistack": "^0.3.7",
+    "npm-run-all": "4.1.3",
+    "perfect-scrollbar": "1.4.0",
+    "react": "^16.8.6",
+    "react-chartist": "0.13.1",
+    "react-color": "^2.17.1",
+    "react-dom": "^16.8.6",
+    "react-dropzone": "^6.0.2",
+    "react-google-login": "^3.2.1",
+    "react-google-maps": "9.4.5",
+    "react-konva": "^16.8.6",
+    "react-loadable": "^5.5.0",
+    "react-number-format": "^3.6.2",
+    "react-persian-datepicker": "^3.0.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "^3.0.0",
+    "react-swipeable-views": "0.12.17",
+    "recharts": "^1.5.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "simple-crypto-js": "^2.0.2",
+    "use-image": "^1.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "lint:check": "eslint . --ext=js,jsx;  exit 0",
+    "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
+    "build-package": "babel src --out-dir dist"
   },
+  "homepage": ".",
   "devDependencies": {
-    "react-scripts": "latest"
+    "babel-cli": "6.26.0",
+    "babel-plugin-module-resolver": "3.1.1",
+    "babel-plugin-import-rename": "1.0.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-react-jsx": "6.24.1",
+    "babel-preset-es2015": "6.24.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

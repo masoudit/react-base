@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24.005">
+    <defs>
+        <style>
+            .cls-1{fill:#4285f4}.cls-2{fill:#34a853}.cls-3{fill:#fbbc05}.cls-4{fill:#ea4335}.cls-5{fill:none}
+        </style>
+    </defs>
+    <g id="Google">
+        <g id="Layer_1" data-name="Layer 1">
+            <g id="logo_googleg_48dp" data-name="logo googleg 48dp">
+                <path id="Shape" d="M23.52 12.27a13.87 13.87 0 0 0-.22-2.45H12v4.64h6.46a5.53 5.53 0 0 1-2.4 3.62v3h3.88a11.69 11.69 0 0 0 3.58-8.82z" class="cls-1"/>
+                <path id="Shape-2" d="M12 24a11.41 11.41 0 0 0 7.94-2.91l-3.88-3a7.22 7.22 0 0 1-10.77-3.8h-4v3.11A12 12 0 0 0 12 24z" class="cls-2" data-name="Shape"/>
+                <path id="Shape-3" d="M5.29 14.28a7 7 0 0 1 0-4.56V6.61h-4a12 12 0 0 0 0 10.78z" class="cls-3" data-name="Shape"/>
+                <path id="Shape-4" d="M12 4.77a6.5 6.5 0 0 1 4.59 1.8L20 3.13A11.53 11.53 0 0 0 12 0 12 12 0 0 0 1.281 6.609l4 3.111a7.14 7.14 0 0 1 6.71-5z" class="cls-4" data-name="Shape"/>
+                <path id="Shape-5" d="M0 0h24v24H0z" class="cls-5" data-name="Shape"/>
+            </g>
+        </g>
+    </g>
+</svg>
