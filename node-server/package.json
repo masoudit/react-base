@@ -1,0 +1,41 @@
+{
+  "name": "node-server",
+  "version": "0.1.0",
+  "description": "Regnar Rest Api",
+  "keywords": [
+    "masoudit-application",
+    "masoudit"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "build": "lb-tsc",
+    "build:watch": "lb-tsc --watch",
+    "lint": "npm run prettier:check && npm run eslint",
+    "lint:fix": "npm run eslint:fix && npm run prettier:fix",
+    "prettier:cli": "lb-prettier \"**/*.ts\" \"**/*.js\"",
+    "prettier:check": "npm run prettier:cli -- -l",
+    "prettier:fix": "npm run prettier:cli -- --write",
+    "eslint": "lb-eslint --report-unused-disable-directives .",
+    "eslint:fix": "npm run eslint -- --fix",
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "",
+  "files": [
+    "README.md",
+    "index.js",
+    "index.d.ts",
+    "dist",
+    "src",
+    "!*/__tests__"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
